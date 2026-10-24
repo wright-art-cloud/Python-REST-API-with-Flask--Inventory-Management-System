@@ -14,3 +14,18 @@ A Flask-based RESTful inventory management application integrated with the OpenF
 2. Install dependencies:
    ```bash
    pip install flask requests pytest
+
+   # Python REST API with Flask - Inventory Management System
+
+A Flask-based RESTful inventory management application integrated with the OpenFoodFacts API, featuring a modular service layer, a command-line interface (CLI) frontend, and a comprehensive pytest test suite.
+
+## Project Structure
+```text
+inventory-project/
+│
+├── app.py              # Main Flask application and RESTful API endpoints
+├── services.py         # OpenFoodFacts API integration and external fetch logic
+├── cli.py              # CLI frontend to interact with the API
+├── test_app.py         # Unit tests using pytest and unittest.mock
+├── Pipfile             # Dependency tracking
+└── README.md           # Project documentation
